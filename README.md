@@ -1,2 +1,2 @@
-# Finans_Fibanças_Pessoais
+# Finans_Finanças_Pessoais
  Projeto site Finanças Pessoais
