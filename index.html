@@ -2,8 +2,8 @@
 <html lang="pt-br">
 
 <head>
-    <title>Meu Projeto</title>
-    
+    <title>Finans - Finanças Pessiais</title>
+
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -18,18 +18,126 @@
     <link rel="stylesheet" href="_icons-main/font/bootstrap-icons.css">
     <!-- Fontawesome CSS -->
     <link rel="stylesheet" href="_fontawesome/css/all.css">
+    <!-- stile css customizado -->
+    <link rel="stylesheet" href="_css/style.css">
 
 </head>
 
 <body>
+    <!-- container topo -->
+    <div id="container-topo" class="container-fluid">
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark mb-5 mb-md-0">
+                <a id="logo" class="navbar-brand" href="#">
+                    <img src="/_img/logo.png" alt="logo_finans">
+                </a>
+
+
+                <!-- Menu Hamburguer 
+                data-toggle="collapse" =apresentar o conteudo ao ser clicado
+                data-target="#ID" indica o qual conteudo será apresentado após o clic buscando seu id-->
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacao-topo">
+                    <!-- Icone Hamburger -->
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- navegacao 
+                "colapse" = esconde os itens de navegação ao atingir navbar-expand-sm
+                "navbar-collapse" = Faz expandir os itens na parte inferior do icon hamburger-->
+                <div class="collapse navbar-collapse" id="navegacao-topo">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Recursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Benefpicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Preços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="btn btn-outline-light mt-2 ml-md-4 mt-md-0" >Entrar</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+
+        <!-- Conteudo Topo -->
+        <section id="home">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 d-flex">
+                        <div class="align-self-center">
+                            <h1 class="display-4 text-light">Suas contas, descomplicadas</h1>
+                            <p class="text-light">Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar sua vida financeira.</p>
+                            <form action="#" class="mt-4 mb-4">
+                                <div class="input-group input-group-lg">
+                                    <input type="text" id="email" class="form-control" placeholder="Seu E-mail ...">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-warning" type="button">Cadastrar</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <p class="text-light">Disponível para 
+                                <a href="#" class="btn btn-outline-light">
+                                    <i class="fa-brands fa-android fa-lg"></i>
+                                </a>
+                                <a href="#" class="btn btn-outline-light">
+                                    <i class="fa-brands fa-apple fa-lg"></i>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- caixa da direita com a imagem mulher capa -->
+                    <div id="capa-mulher" class="col-md-6 d-none d-md-block">
+                        <img src="_img/capa-mulher.png" alt="Capa_mulher">
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="home">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 d-flex">
+                        <div class="align-self-center">
+                            
+                        </div>
+                    </div>
+
+                    <!-- caixa da direita com a imagem mulher capa -->
+                    <div class="col-md-6 d-none d-md-block">
+                        
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+    </div>
 
 
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
     <script src="_js/bootstrap.min.js"></script>
 </body>
 

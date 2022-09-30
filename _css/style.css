@@ -1,0 +1,18 @@
+body{
+    
+}
+
+header a#logo img{
+    width: 142px;
+}
+
+div#container-topo{
+    background: MediumSlateBlue;
+}
+
+
+
+.marcador{
+    background: #fe9d9d;
+    border: 1px solid #f94646;
+}
